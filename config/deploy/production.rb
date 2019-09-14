@@ -4,10 +4,12 @@
 # You can define all roles on a single server, or split them:
 
 server "ttnote_deploy", user: "deploy", roles: %w{app db web}
-ask :branch, 'master'
+set :branch, 'master'
 set :deploy_to, "/var/www/my_jwt2"
-# server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
-# server "db.example.com", user: "deploy", roles: %w{db}
+
+append :puma_bind, "tcp://0.0.0.0:12200"
+set :puma_threads, [0, 5]
+set :puma_workers, 3
 
 
 

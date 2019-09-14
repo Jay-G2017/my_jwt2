@@ -40,7 +40,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano-rvm'
   gem "capistrano-rails", "~> 1.4", require: false
-
+  gem 'capistrano3-puma'
 end
 
 

@@ -47,6 +47,7 @@
     <orderEntry type="library" scope="PROVIDED" name="capistrano-bundler (v1.6.0, RVM: ruby-2.4.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capistrano-rails (v1.4.0, RVM: ruby-2.4.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capistrano-rvm (v0.1.2, RVM: ruby-2.4.6) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="capistrano3-puma (v3.1.1, RVM: ruby-2.4.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.5, RVM: ruby-2.4.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, RVM: ruby-2.4.6) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.8.0, RVM: ruby-2.4.6) [gem]" level="application" />
